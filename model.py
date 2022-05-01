@@ -1,7 +1,7 @@
 import pickle
 import math 
 
-Nearest = pickle.load(open('./model/Nearest.sav', 'rb'))
+Nearest = pickle.load(open('./model/Model.sav', 'rb'))
 
 def slope(p1,p2):
   dy=p1['y']-p2['y']
