@@ -2,7 +2,6 @@ from flask import Flask, render_template, jsonify, request, redirect, url_for
 import time
 from model import *
 
-
 app = Flask(__name__)
 global heap,boo
 heap=[0,0,0]

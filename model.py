@@ -1,5 +1,4 @@
 import pickle
-from sklearn.neighbors import KNeighborsClassifier
 import math 
 
 Nearest = pickle.load(open('./model/Nearest.sav', 'rb'))
@@ -22,6 +21,7 @@ def angle(m1,m2):
   return val
  
 def render(l):
+
   dist=dis(l['5'],l['6'])
   print(dist)
   dis_lim=[140000,120000][l['7']]
